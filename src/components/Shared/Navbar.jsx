@@ -26,7 +26,7 @@ export default function Navbar() {
     { name: "Contact", href: "#" },
   ];
 
-  // GSAP animations (same as before) ----------------------
+  // GSAP animations ----------------------
   useEffect(() => {
     if (dropdownRef.current) {
       gsap.to(dropdownRef.current, {
@@ -174,12 +174,12 @@ export default function Navbar() {
               >
                 <ul className="flex flex-col text-sm">
                   <li>
-                    <Link href="https://linkedin.com" target="_blank" className="block py-2 px-4 ">
+                    <Link href="https://www.linkedin.com/in/mafujurrahman/" target="_blank" className="block py-2 px-4 ">
                       LinkedIn
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://github.com" target="_blank" className="block py-2 px-4 ">
+                    <Link href="https://github.com/mafujur-rahman" target="_blank" className="block py-2 px-4 ">
                       GitHub
                     </Link>
                   </li>
@@ -200,7 +200,7 @@ export default function Navbar() {
           <li>
             <button
               onClick={() => setFormOpen(true)}
-              className="inline-block py-4 "
+              className="inline-block py-4 cursor-pointer"
             >
               Contact
             </button>
@@ -272,8 +272,8 @@ export default function Navbar() {
 
         {/* Social Links */} <div className="mt-10 text-sm md:text-xl w-full">
           <ul className="space-y-2">
-            <li className="flex justify-between items-center"> <span>LinkedIn</span> <a href="https://linkedin.com/in/mafujur_rahman_dev" target="_blank" className="text-[#abb6e0] hover:underline ml-auto text-right" > mafujur_rahman_dev </a> </li>
-            <li className="flex justify-between items-center"> <span>GitHub</span> <a href="https://github.com/mafujur_rahman_dev" target="_blank" className="text-[#abb6e0] hover:underline ml-auto text-right" > mafujur_rahman_dev </a> </li>
+            <li className="flex justify-between items-center"> <span>LinkedIn</span> <a href="https://www.linkedin.com/in/mafujurrahman/" target="_blank" className="text-[#abb6e0] hover:underline ml-auto text-right" > mafujur_rahman_dev </a> </li>
+            <li className="flex justify-between items-center"> <span>GitHub</span> <a href="https://github.com/mafujur-rahman" target="_blank" className="text-[#abb6e0] hover:underline ml-auto text-right" > mafujur_rahman_dev </a> </li>
             <li className="flex justify-between items-center"> <span>Resume</span> <a href="/resume.pdf" target="_blank" className="text-[#abb6e0] hover:underline ml-auto text-right" > mafujur_rahman_dev </a> </li>
           </ul>
         </div>
